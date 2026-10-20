@@ -112,7 +112,7 @@ KAST/
 
 <!-- Add the actual parameter names from your node group -->
 
-## License
+
 
 <!-- Pick one, e.g. MIT for code or CC BY 4.0 for the design files -->
 

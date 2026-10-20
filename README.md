@@ -79,7 +79,7 @@ Limitations to keep in mind: printed PLA is weaker across layers than the isotro
 
 - [x] Parametric lattice design in Blender (Geometry Nodes)
 - [x] Slicing and test printing (Bambu Lab A1, PLA)
-- [ ] Mesh repair and clean print of the full cast
+- [x] Mesh repair and clean print of the full cast
 - [ ] Static FEA of a representative section (FreeCAD)
 - [ ] Physical load testing of a printed section
 - [ ] Fit testing on a model limb

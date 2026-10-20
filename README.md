@@ -2,7 +2,8 @@
 
 A parametric, lattice-style forearm cast generated in Blender with Geometry Nodes and printed in PLA. The goal is a cast that is strong, ventilated, and customizable to an individual limb, with a longer-term plan to make it an *active* medical device with sensors and electrical stimulation.
 
-![KAST render in Blender](images/blender-model.png)
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/82b5c75d-8f6e-4bc5-9372-1243f74c9534" />
+
 <!-- Add: screenshot of the finished model in Blender -->
 
 > **Disclaimer:** KAST is a student prototype. It has not been tested on people, it is not a medical device, and it must not be used as a substitute for a cast applied by a clinician.
@@ -48,6 +49,10 @@ The design lives in a Blender **Geometry Nodes** setup (Blender 5.0). At a high 
 ### Known printing issues
 
 The raw mesh exported from Geometry Nodes triggered slicer warnings (empty layers and floating regions), which point to non-manifold geometry or thin sections in the lattice. Merging vertices and repairing the mesh before export is part of the workflow. <!-- Edit this once you've written down exactly what fixed it for you -->
+
+<img width="455" height="587" alt="image" src="https://github.com/user-attachments/assets/3136587a-e9be-4f52-b320-33c2f334f25b" />
+
+
 
 ## Structural validation
 

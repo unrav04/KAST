@@ -28,7 +28,7 @@ The design lives in a Blender **Geometry Nodes** setup (Blender 5.0). At a high 
 4. Extrudes and scales the cells to set strut thickness, deleting faces to open the holes
 5. Outputs a single printable mesh, with the pattern controlled by position along the limb
 
-![Geometry Nodes graph](images/geometry-nodes.png)
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/82b5c75d-8f6e-4bc5-9372-1243f74c9534" />
 <!-- Add: screenshot of the node graph -->
 
 ## Print settings
@@ -43,14 +43,15 @@ The design lives in a Blender **Geometry Nodes** setup (Blender 5.0). At a high 
 | Wall loops | 2 |
 | Infill | 15%, grid |
 
-![Slicer preview](images/slicer-preview.png)
+<img width="1201" height="727" alt="image" src="https://github.com/user-attachments/assets/3662061c-cdb8-4391-909d-196e58e971f2" />
+
 <!-- Add: slicer preview screenshot -->
 
 ### Known printing issues
 
 The raw mesh exported from Geometry Nodes triggered slicer warnings (empty layers and floating regions), which point to non-manifold geometry or thin sections in the lattice. Merging vertices and repairing the mesh before export is part of the workflow. <!-- Edit this once you've written down exactly what fixed it for you -->
 
-<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/82b5c75d-8f6e-4bc5-9372-1243f74c9534" />
+
 
 
 ## Structural validation
